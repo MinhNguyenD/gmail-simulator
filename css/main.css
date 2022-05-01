@@ -1,0 +1,143 @@
+/* 
+	CSS Styling, 
+	Author: Raghav Sampangi, 
+	From: code sample in weekly content, 
+	Date accessed: 12 March 2022 
+*/
+
+/*
+This code contains code re-used from examples provided by Prof. Sampangi in this course. 
+This code is used with Prof. Raghav Sampangi's permission. This code is used as a starting point for my solution for A4.
+*/
+
+
+/* Common page styles */
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: steelblue;
+}
+body {
+	width: 80vw; 
+	margin: 0 auto;
+	background-color: white;
+}
+
+/* Page header/banner styles */
+.pg-banner {
+	height: 10vh;
+	border-bottom: 5px solid gold;
+	display: flex;
+	align-items: center;
+	justify-content: space-between ;
+	padding: 1em;
+}
+.pg-banner h1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Page main content section styles */
+.pg-main-content {
+	min-height: 80vh;
+	padding: 1em;
+}
+
+/* Page footer styles */
+.pg-footer {
+	height: 10vh;
+	color: white;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	padding: 1em;
+}
+
+/* Form styling */
+form {
+	margin: auto;
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+}
+form > input {
+	margin: 1em 0;
+	height: 3em;
+}
+
+.form-group {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5em 0;
+}
+.form-group label {
+	flex: 1;
+}
+form input[type="submit"] {
+	min-height: 2em;
+	margin: 0.5em 0;
+}
+.form-group input {
+	min-height: 2em;
+	flex: 2;
+}
+.form-group textarea {
+	min-height: 5em;
+	flex: 2;
+}
+
+
+.welcome{
+	padding: 1em;
+}
+
+
+
+.post{
+	padding: 1em; 
+}
+
+
+.message{
+	display: inline-block;
+	font-style: italic;
+	font-size: small;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+nav > h2 {
+	padding: 1em;
+}
+
+nav > p{
+	padding: 1em;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.inbox-content{
+	display: flex;
+	flex-direction: row;
+}
+
+.email-content{
+	flex: 1; 
+}
+
+.email-title{
+	flex:1;
+}
+
+.suggestion{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
